@@ -1,0 +1,11 @@
+digraph "Deterministic Finite Automata" {
+	rankdir=LR
+	node [shape=doublecircle]
+	S2
+	S3
+	node [shape=circle]
+	S1 -> S2 [label=b]
+	S1 -> S3 [label=a]
+	node [shape=point]
+	"" -> S1
+}
